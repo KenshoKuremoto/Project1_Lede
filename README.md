@@ -1,7 +1,8 @@
 # Project01
 This is project-01 for the Lede Program.  
-Link to the project-01: 
-GitHub repository for data:
+Link to the project-01:https://kenshokuremoto.github.io/Project1_Lede/
+
+GitHub repository for data:https://github.com/KenshoKuremoto/Lede_Proect1_CCI
 
 ## Title
 **Too Flawed to Save, or Too Hasty to Scrap?**  
