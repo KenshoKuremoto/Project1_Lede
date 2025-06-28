@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Too Flawed to Save, or Too Hasty to Scrap?</title>
+  <link rel="stylesheet" href="https://unpkg.com/scrollama">
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    h2 {
+      font-size: 1.3em;
+      margin-top: 2em;
+    }
+
+    b {
+      font-weight: bold;
+    }
+
+    .graphic-container {
+      position: relative;
+      height: 80vh;
+      margin-bottom: 3em;
+    }
+
+    .graphic-container img,
+    .graphic-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .step {
+      margin: 0 auto;
+      padding: 80vh 0;
+      font-size: 1.2rem;
+      max-width: 700px;
+    }
+
+    .step p {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    .scrolly {
+      position: relative;
+    }
+
+    .scroll-text {
+      position: relative;
+      z-index: 10;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .sticky-graphic {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+    }
+
+    .footer {
+      background: #f4f4f4;
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 4em;
+      padding: 2em 0;
+    }
+
+    .footer a {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div style="background-color:#3A6FA2; color:white; padding:1rem 2rem;">
+      <h1 style="margin:0;">Too Flawed to Save, or Too Hasty to Scrap?</h1>
+      <h2>Why Japan Killed Its 70-Year-Old Rice Index — and Whether the Numbers Justified It</h2>
+    <p><i>By Kensho Kuremoto</i></p></div>
+
+    <p>Japan is currently facing a serious problem: <b>a surge in the price of its staple food—rice.</b> Over the past 35 years, the Consumer Price Index (CPI) for rice has skyrocketed like a rocket since 2024, far outpacing other items, and shows no sign of slowing down in 2025.</p>
+
+    <iframe title="The Consumer Price Index over the past 35 years" aria-label="Interactive line chart" id="datawrapper-chart-iZVPG" src="https://datawrapper.dwcdn.net/iZVPG/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="568" data-external="1"></iframe>
+
+    <p>The last major rice price crisis occurred in 1993, which became a national scandal. But today’s CPI has reached nearly double the level of that event.</p>
+
+    <h2>A Mysterious Rice Crisis — and a Political Prince on a Mission</h2>
+    <p>Japan’s infamous Rice Crisis of 1993 had a clear villain: a brutally cold summer that devastated the year’s harvest. But this time around, the culprit behind the skyrocketing price of rice is proving elusive. Theories abound—some whisper that wholesalers are hoarding stocks, others point fingers at flawed government data on crop yields. But so far, no smoking gun.</p>
+  </div>
+
+  <div class="scrolly">
+    <div class="sticky-graphic graphic-container">
+      <img id="shinjiro-photo" src="shinjirophoto.jpg" alt="Shinjiro Koizumi">
+    </div>
+    <div class="scroll-text">
+      <div class="step" data-step="1">
+        <p>Into the chaos stepped <b>Shinjiro Koizumi</b>, making a high-profile return as Minister of Agriculture(s).</p>
+      </div>
+      <div class="step" data-step="2">
+        <p>Appointed in a flash amid growing public pressure, <b>Koizumi</b>—son of a storied former prime minister—has often been compared to Japan’s version of JFK Jr.: youthful, photogenic, and a constant media presence. His appointment quickly became front-page news.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <p>On his very first day in office, Koizumi swung into action, authorizing the emergency release of government stockpiled rice directly to retailers at discounted prices. Within a week, consumers began spotting 5-kilogram bags of rice on store shelves for around ¥2,000 (roughly $14). That’s a steep drop from the ¥4,200 average (roughly $30) that had become the new norm. In less than a month, prices dipped below the psychologically important ¥4,000 threshold.</p>
+
+    <iframe title="Retail Rice Prices Since Minister Koizumi Took Office" aria-label="Interactive line chart" id="datawrapper-chart-IX2b3" src="https://datawrapper.dwcdn.net/IX2b3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="600" style="max-width: 100%; display: block;" data-external="1"></iframe>
+
+    <p>At 44, the <b>“Prince Minister”</b> may have just delivered Japan its first real relief in this latest rice saga—and perhaps a dose of political redemption.</p>
+<img src="shinjiro.jpeg" alt="Shinjiro Koizumi" style="width:100%; max-width:700px; display:block; margin: 1em auto;">
+    <p>One of Koizumi’s most controversial moves was to <b>scrap the long-standing Crop Condition Index (CCI), a government statistic published annually for over 70 years.</b> The CCI was designed to quantify the year’s rice crop conditions using 100 as the average baseline.</p>
+    <p>Koizumi claimed that due to climate change and other factors, the index no longer reflected reality. While some supported the decision, others saw it as politically motivated.</p>
+<h2>A Broken Yardstick? What Data Say About the Rice Index</h2>
+<p>The controversy erupted when, despite the ongoing rice crisis, the CCI for 2024 was reported at 101—essentially average. To investigate further, I examined the relationship between the CCI and actual harvest volumes over the past 35 years.</p>
+  </div>
+
+  <div class="scrolly">
+    <div class="sticky-graphic graphic-container">
+      <img id="section3-image" src="CCI_HV1@2x.png" alt="Graph">
+    </div>
+    <div class="scroll-text">
+      <div class="step" data-step="3">
+        <p><b>The red line traces Japan’s official Crop Condition Index.</b> While it fluctuated during the volatile 1990s, the index has appeared more stable since the mid-2000s.</p>
+      </div>
+      <div class="step" data-step="4">
+        <p>In contrast, the blue bars represent harvest volumes. Until the 2000s, the two metrics seemed in sync, but afterward the relationship broke down. For the last 20 years, <b>the index has not meaningfully reflected actual changes in output.</b></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Visualizing Price and Condition</h2>
+    <p>This scatterplot shows the rice crop index on the X-axis and the consumer price index (CPI) for rice on the Y-axis, with the color and size of each bubble representing the total rice harvest for that year.</p>
+  </div>
+
+  <div class="scrolly">
+    <div class="sticky-graphic graphic-container">
+      <img id="section4-image" src="Scatter_01.png" alt="Scatterplot">
+    </div>
+    <div class="scroll-text">
+      <div class="step" data-step="5">
+        <p>At a glance, there appears to be <b>no significant correlation</b> between the crop index and the consumer price index.</p>
+      </div>
+      <div class="step" data-step="6">
+        <p>If good harvests led to lower prices and poor harvests led to higher prices, we would expect most of the data points to fall <b>within the shaded gray zone.</b> However, that pattern is not observed.</p>
+      </div>
+      <div class="step" data-step="7">
+        <p>In fact, one year stands out in particular: 2024, where the CPI rose sharply to 123, despite the crop index being a relatively average 101. This diverges notably from the trend seen in other years with similar crop index values (100–102), suggesting that 2024 was an outlier in terms of how prices responded to harvest conditions.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <p>These findings support the hypothesis that <b>the CCI had lost touch with the reality of harvest volumes, pricing, and possibly distribution.</b> This aligns with what field experts have sensed and what the government’s decision suggests. Why the index diverged from reality remains a topic of debate—a question best left for future inquiry.</p>
+  </div>
+
+  
+<div class="container">
+  <h2>Image Source and Chart References</h2>
+  <ul>
+    <li>Image Source:
+      <ul>
+        <li><a style="color: black;" href="https://www.jimin.jp/member/100445.html" target="_blank" style="color:white;">Liberal Democratic Party – Official Page of Shinjiro Koizumi</a></li>
+        <li><a style="color: black;" href="https://x.com/shinjirokoiz/status/1934134738547298403/photo/1" target="_blank" style="color:white;">Shinjiro Koizumi – Official X Account</a></li>
+      </ul>
+    </li>
+    <li>Charts (see source via link):
+      <ul>
+        <li><a style="color: black;" href="https://public.flourish.studio/visualisation/23904680/" target="_blank" style="color:white;">CCI and Harvest Volume</a></li>
+        <li><a style="color: black;" href="https://public.flourish.studio/visualisation/23929488/" target="_blank" style="color:white;">CCI and CPI</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="footer" style="background-color:#3A6FA2; color:white;">
+    <p><a style="color: black;" href="https://github.com/KenshoKuremoto/Lede_Proect1_CCI" target="_blank">Here is the link to Github page</a></p>
+  </div>
+
+  <script src="https://unpkg.com/scrollama"></script>
+  <script>
+    const section3Img = document.getElementById("section3-image");
+    const section4Img = document.getElementById("section4-image");
+
+    scrollama()
+      .setup({ step: ".step", offset: 0.5 })
+      .onStepEnter(response => {
+        const step = response.element.getAttribute("data-step");
+        if (step === "4") section3Img.src = "CCI_HV2@2x.png";
+        else if (step === "5") section4Img.src = "Scatter_01.png";
+        else if (step === "6") section4Img.src = "Scatter_02.png";
+        else if (step === "7") section4Img.src = "Scatter_03.png";
+      });
+  </script>
+</body>
+</html>
